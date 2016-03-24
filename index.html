@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/my-styles.css" rel="stylesheet" type="text/css">
+
+    <title>What Game of Thrones character are you?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What Game of Thrones character are you?</h1>
+      <h2>Please answer the following questions:</h2>
+      <form id="survey">
+        <div class="form-group">
+          <label for="#patricide">Have you killed your father?</label>
+          <select class ="form-control" id="patricide">
+          <option>Yes</option>
+          <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="#honor">How important is honor to you?</label>
+          <select class ="form-control" id="honor">
+          <option value="1">Not important at all</option>
+          <option value="2">A little important</option>
+          <option value="3">Important</option>
+          <option value="4">Very important</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="#sadism">How much do you like hurting other people?</label>
+          <select class ="form-control" id="sadism">
+          <option value="1">It's what I live for</option>
+          <option value="2">If I can find the time</option>
+          <option value="3">Only if I have to</option>
+          <option value="4">I would never hurt anyone</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="#rule">How would you rule?</label>
+          <select class ="form-control" id="rule">
+          <option value="4">With wise benevolence</option>
+          <option value="3">Firm but fair</option>
+          <option value="2">Iron fist</option>
+          <option value="1">My subjects die to amuse me</option>
+          </select>
+        </div>
+
+          <button type="submit" class="btn">Who are you?</button>
+        </form>
+
+      <h2 id="output" class="hide1">You are <span id="result"></span></h2>
+    </div>
+  </body>
+</html>
